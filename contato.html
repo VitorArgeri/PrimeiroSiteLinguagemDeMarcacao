@@ -1,64 +1,64 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="cabeçalho">
-        <h2><a href="index.html">Home</a></h2>
-        <h2><a href="sobre.html">Sobre</a></h2>
-        <h2><a href="contato.html">Contato</a></h2>
-    </div>  
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="cabeçalho">
+            <h2><a href="index.html">Home</a></h2>
+            <h2><a href="sobre.html">Sobre</a></h2>
+            <h2><a href="contato.html">Contato</a></h2>
+        </div>  
 
-    <h1>Contato</h1>
+        <h1>Contato</h1>
 
-    <form action="/submit" method="post" enctype="multipart/form-data" autocomplete="on" novalidate accept-charset="UTF-8" target="_blank">
-        
-        <fieldset>
-            <legend>Informações Pessoais</legend>
-            <label for="name">Nome: </label>
-                <input type="text" name="nome" id="nome" placeholder="Seu Nome" required>
-                <br>
-            <label for="genero">Gênero: </label>
-                <input type="radio" name="genero" id="masculino" value="masculino" checked>
-            <label for="masculino">Masculino</label>
-                <input type="radio" name="genero" id="feminino" value="feminino" checked>
-            <label for="feminino">Feminino</label>
-                <input type="radio" name="genero" id="outros" value="outros" checked>
-            <label for="outros">Outro</label>
-        </fieldset>
-        
-        <fieldset>
-            <legend>E-mail</legend>
-            <label for="e-mail"></label>
-                <input type="text" id="e-mail" name="e-mail" placeholder="seuemail@gmail.com" maxlength="100"> 
+        <form action="/submit" method="post" enctype="multipart/form-data" autocomplete="on" novalidate accept-charset="UTF-8" target="_blank">
             
-        </fieldset>
-
-        <fieldset>
-            <legend>Telefone</legend>
-            <label for="telefone"></label>
-                <input type="text" name="telefone" id="telefone" placeholder="Ex: (19) 99999-9999">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label for="name">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu Nome" required>
+                    <br>
+                <label for="genero">Gênero: </label>
+                    <input type="radio" name="genero" id="masculino" value="masculino" checked>
+                <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="feminino" value="feminino" checked>
+                <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero" id="outros" value="outros" checked>
+                <label for="outros">Outro</label>
+            </fieldset>
             
-        </fieldset>
+            <fieldset>
+                <legend>E-mail</legend>
+                <label for="e-mail"></label>
+                    <input type="email" id="e-mail" name="e-mail" placeholder="seuemail@gmail.com" maxlength="100"> 
+                
+            </fieldset>
 
-        <fieldset>
-            <legend>Localização</legend>
-            <label for="cidade">Cidade:</label>
-            <select name="cidade" id="cidade">
-                <option value="sao-paulo">São Paulo</option>
-                <option value="valinhos">Valinhos</option>
-                <option value="campinas">Campinas</option>
-                <option value="vinhedo">Vinhedo</option>
-                <option value="jundiao">Jundiaí</option>
-            </select>
-        </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <label for="mensagem"></label>
+                    <input type="textarea" name="mensagem" id="mensagem" placeholder="Coloque sua mensagem aqui">
+                
+            </fieldset>
 
-        <button type="submit">Enviar</button>
+            <fieldset>
+                <legend>Localização</legend>
+                <label for="cidade">Cidade:</label>
+                <select name="cidade" id="cidade">
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="valinhos">Valinhos</option>
+                    <option value="campinas">Campinas</option>
+                    <option value="vinhedo">Vinhedo</option>
+                    <option value="jundiao">Jundiaí</option>
+                </select>
+            </fieldset>
 
-    </form>
-</body>
-</html>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </body>
+    </html>
