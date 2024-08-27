@@ -71,7 +71,12 @@ legend {
     color: #333;
 }
 
-label, input, legend, select {
+label, input, legend {
+    font-size: 30px;
+    color: #fff;
+}
+
+select {
     font-size: 30px;
 }
 
@@ -96,7 +101,7 @@ form button:hover {
 form {
     width: 1500px;
     margin: auto;
-    background-color: #fff;
+    background-color: #fd5151;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 1);
